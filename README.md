@@ -5,9 +5,9 @@ By: [[https://youtu.be/t8pPdKYpowI | TechWorld with Nana]]
 - [x] strings, numbers, booleans
 - [ ] lists, sets, dictionaries
 - [x] variables && functions
-- [ ] user input
-- [ ] input validation with conditionals
-- [ ] error handling with try/accept
+- [x] user input
+- [x] input validation with conditionals
+- [x] error handling with try/accept
 - [ ] looping; for loop, while loop
 
 ### Modules
