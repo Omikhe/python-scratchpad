@@ -9,7 +9,11 @@ def days_to_units(num_of_days):
     else:
         return "you entered a negative value"
 
-user_input = int(input("Enter number of days\n"))
-data = days_to_units(user_input)
-print(data)
+user_input = input("Enter number of days\n")
 
+if user_input.isdigit():
+    user_input_number = int(user_input)
+    data = days_to_units(user_input_number)
+    print(data)
+else:
+    print("that's not a number!")
