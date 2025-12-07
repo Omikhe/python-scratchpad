@@ -9,7 +9,7 @@ def validate_and_execute():
 
     #check if num is a digit
     try:
-        user_input_number = int(user_input)
+        user_input_number = int(number_of_days_element)
 
         #check if num is positive
         if user_input_number > 0:
@@ -26,4 +26,5 @@ def validate_and_execute():
 user_input = " "
 while user_input != "exit":
     user_input = input("Enter number of days\n")
-    validate_and_execute()
+    for number_of_days_element in user_input.split():
+        validate_and_execute()
