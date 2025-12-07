@@ -8,7 +8,7 @@ def days_to_units(num_of_days):
 def validate_and_execute():
 
     #check if num is a digit
-    if user_input.isdigit():
+    try:
         user_input_number = int(user_input)
 
         #check if num is positive
@@ -20,8 +20,8 @@ def validate_and_execute():
         else:
             print("you entered a negative value")
         
-    else:
-        print("that's not a number!")
+    except ValueError:
+        print("that's not a valid number!")
 
 user_input = input("Enter number of days\n")
 validate_and_execute()
