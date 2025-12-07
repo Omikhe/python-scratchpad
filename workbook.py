@@ -23,5 +23,7 @@ def validate_and_execute():
     except ValueError:
         print("that's not a valid number!")
 
-user_input = input("Enter number of days\n")
-validate_and_execute()
+user_input = " "
+while user_input != "exit":
+    user_input = input("Enter number of days\n")
+    validate_and_execute()
