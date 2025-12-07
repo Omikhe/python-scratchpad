@@ -1,3 +1,8 @@
-# string concatenation - number and string
-# print("20 days are " + str(50) + " minutes")
-print(f"20 days are {20 * 24 * 60} minutes")
+calculation_to_hours = 24
+name_of_unit = "hours"
+
+def days_to_units(num_of_days):
+    print(f"{num_of_days} days are {num_of_days * calculation_to_hours } {name_of_unit}")
+
+
+days_to_units(40)
