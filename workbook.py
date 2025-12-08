@@ -26,5 +26,5 @@ def validate_and_execute():
 user_input = " "
 while user_input != "exit":
     user_input = input("Enter number of days\n")
-    for number_of_days_element in user_input.split():
+    for number_of_days_element in set(user_input.split()):
         validate_and_execute()
