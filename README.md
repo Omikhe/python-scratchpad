@@ -1,30 +1,30 @@
 # Python Tutorial for Beginners
-By: [[https://youtu.be/t8pPdKYpowI | TechWorld with Nana]]
+By: [https://youtu.be/t8pPdKYpowI | TechWorld with Nana]
 
 ### Basics
 - [x] strings, numbers, booleans
-- [ ] lists, sets, dictionaries
+- [x] lists, sets, dictionaries
 - [x] variables && functions
 - [x] user input
 - [x] input validation with conditionals
 - [x] error handling with try/accept
-- [ ] looping; for loop, while loop
+- [x] looping; for loop, while loop
 
 ### Modules
-- [ ] write custom modules
-- [ ] use built-in python modules
+- [x] write custom modules
+- [x] use built-in python modules
 
 #### 🎯 Project: Countdown App
-- [ ] work with datetime module
+- [x] work with datetime module
 
 ### Packages, PyPl & PIP
 
 #### 🎯 Project: Automation with Python
-- [ ] work with a spreadsheet file
+- [x] work with a spreadsheet file
 
 ### OOP
-- [ ] objects
-- [ ] classes
+- [x] objects
+- [x] classes
 
 #### 🎯 Project: API request to GitLab
-- [ ] list GitLab project of a specific user
+- [x] list GitLab project of a specific user
